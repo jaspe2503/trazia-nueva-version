@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAZIA | Conectando el Café de Especialidad con el Mundo</title>
+    <meta name="description" content="TRAZIA - Every origin has a story. Acercamos productores de café en Venezuela a tostadores especializados y mercados internacionales con una visión centrada en el origen, la trazabilidad y las personas.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Google Fonts: Editorial Serif & Clean Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"><span></span></div>
+
+    <!-- 1. HEADER & NAVEGACIÓN -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="nav-brand" aria-label="TRAZIA - Every origin has a story">
+                <img src="images/Trazia_.svg" alt="TRAZIA Logo" class="nav-logo-img">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#origen-rostro" class="nav-link">El Origen</a></li>
+                    <li><a href="#enfoque" class="nav-link">Enfoque</a></li>
+                    <li><a href="#recorrido" class="nav-link">Trazabilidad</a></li>
+                    <li><a href="#venezuela" class="nav-link">Venezuela</a></li>
+                    <li><a href="#servicios" class="nav-link">Servicios B2B</a></li>
+                    <li><a href="#comunidad" class="nav-link">Comunidad</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contacto" class="btn btn-gold nav-cta">Conversemos</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menú" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- 2. HERO SECTION -->
+        <section class="hero-section" id="inicio">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">Café de Especialidad • Relaciones de Origen</span>
+                    <h1 class="hero-title">Every origin has a story.</h1>
+                    <h2 class="hero-subtitle">Conectamos el café de especialidad con el mundo.</h2>
+                    <p class="hero-description">
+                        TRAZIA trabaja para acercar productores de café en Venezuela a tostadores especializados y mercados internacionales, con una visión centrada en el origen, la trazabilidad, la calidad y las relaciones de largo plazo.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contacto" class="btn btn-gold hero-primary-cta">Conversemos con TRAZIA <span aria-hidden="true">→</span></a>
+                        <a href="#enfoque" class="btn btn-outline-white">Conocer nuestro enfoque</a>
+                    </div>
+                    <div class="hero-trust"><span class="hero-trust-dot"></span><span>Origen · Trazabilidad · Relaciones de largo plazo</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EL ORIGEN TIENE ROSTRO -->
+        <section class="section section-crema" id="origen-rostro">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Humanidad • Territorio • Historia</span>
+                    <h2 class="section-title">El origen tiene rostro.</h2>
+                    <p class="section-subtitle">
+                        Detrás de cada café existe una persona, un territorio, un conocimiento y una historia. En TRAZIA creemos que comprender el origen es el primer paso para construir relaciones más transparentes y valiosas.
+                    </p>
+                </div>
+
+                <div class="rostro-grid">
+                    <article class="rostro-card interactive-card" data-origin-card="personas">
+                        <button type="button" class="card-hit-area" aria-expanded="false">
+                            <span class="rostro-img-wrap">
+                                <img src="images/rostro_productor.jpg" alt="Caficultor en su entorno natural de cultivo" class="rostro-img" loading="lazy">
+                            </span>
+                            <span class="rostro-caption">
+                                <span class="rostro-tag">Las Personas</span>
+                                <span class="rostro-title">El valor del conocimiento agrícola</span>
+                                <span class="rostro-desc">El esfuerzo y dedicación de las familias productoras que cuidan la planta durante todo el ciclo de cosecha.</span>
+                                <span class="card-more">Explorar <span aria-hidden="true">+</span></span>
+                            </span>
+                        </button>
+                        <div class="card-detail" hidden>
+                            <strong>El factor humano</strong>
+                            <p>El conocimiento del productor, sus decisiones y el cuidado de la finca forman parte del valor que queremos hacer visible.</p>
+                        </div>
+                    </article>
+
+                    <article class="rostro-card interactive-card" data-origin-card="territorio">
+                        <button type="button" class="card-hit-area" aria-expanded="false">
+                            <span class="rostro-img-wrap">
+                                <img src="images/rostro_montana.jpg" alt="Cordillera montañosa y microclima cafetalero" class="rostro-img" loading="lazy">
+                            </span>
+                            <span class="rostro-caption">
+                                <span class="rostro-tag">El Territorio</span>
+                                <span class="rostro-title">El territorio de alta montaña</span>
+                                <span class="rostro-desc">Las altitudes, suelos fértiles y microclimas de las serranías que imprimen carácter único a cada variedad.</span>
+                                <span class="card-more">Explorar <span aria-hidden="true">+</span></span>
+                            </span>
+                        </button>
+                        <div class="card-detail" hidden>
+                            <strong>El territorio también cuenta</strong>
+                            <p>Altitud, suelo, sombra y microclima ayudan a explicar por qué cada origen merece ser entendido en su propio contexto.</p>
+                        </div>
+                    </article>
+
+                    <article class="rostro-card interactive-card" data-origin-card="cosecha">
+                        <button type="button" class="card-hit-area" aria-expanded="false">
+                            <span class="rostro-img-wrap">
+                                <img src="images/rostro_cerezas.jpg" alt="Cerezas maduras de café en la planta" class="rostro-img" loading="lazy">
+                            </span>
+                            <span class="rostro-caption">
+                                <span class="rostro-tag">La Cosecha</span>
+                                <span class="rostro-title">Selección y esmero artesanal</span>
+                                <span class="rostro-desc">La recolección en el punto óptimo de madurez que marca el punto de partida hacia un café de calidad.</span>
+                                <span class="card-more">Explorar <span aria-hidden="true">+</span></span>
+                            </span>
+                        </button>
+                        <div class="card-detail" hidden>
+                            <strong>El comienzo de la historia</strong>
+                            <p>La cosecha es el punto de partida: una etapa donde la selección y el cuidado pueden influir en el resultado final.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. NUESTRO ENFOQUE -->
+        <section class="section section-blanco" id="enfoque">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Pilares Fundamentales</span>
+                    <h2 class="section-title">Nuestro Enfoque</h2>
+                    <p class="section-subtitle">
+                        Construimos puentes éticos y profesionales guiados por cuatro convicciones claras.
+                    </p>
+                </div>
+
+                <div class="enfoque-grid">
+                    <div class="enfoque-card">
+                        <div class="enfoque-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"></path><path d="M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 0 0 0 18M12.5 3a17 17 0 0 1 0 18"></path></svg>
+                        </div>
+                        <h3 class="enfoque-title">Origen</h3>
+                        <p class="enfoque-desc">
+                            Conocer el territorio, las condiciones de altitud, el suelo y a las personas que hacen posible cada grano.
+                        </p>
+                    </div>
+
+                    <div class="enfoque-card">
+                        <div class="enfoque-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M6 15v-3a4 4 0 0 1 4-4h4"></path></svg>
+                        </div>
+                        <h3 class="enfoque-title">Trazabilidad</h3>
+                        <p class="enfoque-desc">
+                            Dar importancia a la información clara que permite comprender el recorrido completo del café desde su nacimiento.
+                        </p>
+                    </div>
+
+                    <div class="enfoque-card">
+                        <div class="enfoque-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <h3 class="enfoque-title">Relaciones</h3>
+                        <p class="enfoque-desc">
+                            Promover conexiones duraderas basadas en la confianza mutua, la comunicación abierta y el respeto por el trabajo agrícola.
+                        </p>
+                    </div>
+
+                    <div class="enfoque-card">
+                        <div class="enfoque-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                        </div>
+                        <h3 class="enfoque-title">Calidad</h3>
+                        <p class="enfoque-desc">
+                            Valorar el cuidado, el conocimiento agronómico y la rigurosidad en los procesos que influyen en cada taza.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. DEL ORIGEN AL MERCADO -->
+        <section class="section section-crema" id="recorrido">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">El Camino del Café</span>
+                    <h2 class="section-title">Del Origen al Mercado</h2>
+                    <p class="section-subtitle">
+                        Inspirados en la línea que traza nuestro logotipo, comprendemos cada paso como parte de un proceso continuo de valor y respeto.
+                    </p>
+                </div>
+
+                <div class="journey-container">
+                    <div class="journey-steps" role="tablist" aria-label="Etapas del recorrido del café">
+                        <button type="button" class="journey-step is-active" role="tab" aria-selected="true" data-journey="productores">
+                            <span class="journey-node">1</span>
+                            <span class="journey-title">Productores</span>
+                            <span class="journey-desc">El trabajo humano y la dedicación en la tierra.</span>
+                        </button>
+                        <button type="button" class="journey-step" role="tab" aria-selected="false" data-journey="territorio">
+                            <span class="journey-node">2</span>
+                            <span class="journey-title">Territorio</span>
+                            <span class="journey-desc">Altitud, suelo, sombra y microclima natural.</span>
+                        </button>
+                        <button type="button" class="journey-step" role="tab" aria-selected="false" data-journey="cosecha">
+                            <span class="journey-node">3</span>
+                            <span class="journey-title">Cosecha</span>
+                            <span class="journey-desc">Recolección selectiva y beneficio cuidadoso.</span>
+                        </button>
+                        <button type="button" class="journey-step" role="tab" aria-selected="false" data-journey="informacion">
+                            <span class="journey-node">4</span>
+                            <span class="journey-title">Información</span>
+                            <span class="journey-desc">Datos de origen, proceso y variedad.</span>
+                        </button>
+                        <button type="button" class="journey-step" role="tab" aria-selected="false" data-journey="tostadores">
+                            <span class="journey-node">5</span>
+                            <span class="journey-title">Tostadores</span>
+                            <span class="journey-desc">Diálogo profesional y valoración del perfil.</span>
+                        </button>
+                        <button type="button" class="journey-step" role="tab" aria-selected="false" data-journey="mercados">
+                            <span class="journey-node">6</span>
+                            <span class="journey-title">Mercados</span>
+                            <span class="journey-desc">Presencia internacional con identidad clara.</span>
+                        </button>
+                    </div>
+
+                    <div class="journey-detail" id="journeyDetail" aria-live="polite">
+                        <div class="journey-detail-media">
+                            <img id="journeyDetailImage" src="images/rostro_productor.jpg" alt="Productor de café trabajando en la finca" loading="lazy">
+                        </div>
+                        <div class="journey-detail-copy">
+                            <span class="journey-detail-kicker">01 · ORIGEN</span>
+                            <p>La historia comienza con las personas que conocen la tierra, toman decisiones en la finca y hacen posible cada cosecha.</p>
+                        </div>
+                        <a href="#contacto" class="text-link">Quiero conversar sobre origen <span aria-hidden="true">→</span></a>
+                    </div>
+
+                    <div class="journey-callout">
+                        “Cada etapa forma parte de la historia del café.”
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. VENEZUELA: UN ORIGEN POR DESCUBRIR -->
+        <section class="section section-blanco" id="venezuela">
+            <div class="container">
+                <div class="venezuela-layout">
+                    <div class="venezuela-text">
+                        <span class="section-badge">Territorio y Tradición</span>
+                        <h2 class="section-title">Venezuela: un origen por descubrir.</h2>
+                        <p>Venezuela cuenta con una profunda tradición cafetalera y una geografía privilegiada. Desde las estribaciones de la Cordillera de los Andes hasta los valles costeros, diversas regiones albergan condiciones para el cultivo de café.</p>
+                        <p>TRAZIA busca contribuir a una mayor visibilidad del café venezolano, acercando sus territorios, productores y posibilidades a profesionales especializados de otros mercados.</p>
+
+                        <div class="region-tabs" role="tablist" aria-label="Regiones de café de Venezuela">
+                            <button type="button" class="region-tab is-active" role="tab" aria-selected="true" data-region="andes">Cordillera de los Andes</button>
+                            <button type="button" class="region-tab" role="tab" aria-selected="false" data-region="centro">Centro-Occidental</button>
+                        </div>
+
+                        <div class="region-panel is-active" data-region-panel="andes">
+                            <span class="region-label">Mérida · Táchira · Trujillo</span>
+                            <h3>Altura, clima y tradición</h3>
+                            <p>Alturas superiores a 1500 msnm con clima fresco y suelos ricos, dentro de una zona de larga tradición cafetalera.</p>
+                        </div>
+                        <div class="region-panel" data-region-panel="centro" hidden>
+                            <span class="region-label">Lara · Portuguesa</span>
+                            <h3>Historia y cultivo bajo sombra</h3>
+                            <p>Zonas con historia cafetalera y prácticas tradicionales de cultivo bajo sombra.</p>
+                        </div>
+
+                        <a href="#contacto" class="btn btn-outline-green section-cta">Quiero conocer los orígenes <span aria-hidden="true">→</span></a>
+                    </div>
+
+                    <div class="venezuela-image-wrap">
+                        <img src="images/venezuela_tradicion.jpg" alt="Tradición y paisajes del café venezolano" class="venezuela-img" loading="lazy">
+                        <div class="image-caption">Origen venezolano · territorio · tradición</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. SERVICIOS B2B -->
+        <section class="section section-crema" id="servicios">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Propuesta de Valor</span>
+                    <h2 class="section-title">Nuestros Servicios B2B</h2>
+                    <p class="section-subtitle">
+                        Trabajamos para estructurar puentes de colaboración directa y transparente entre origen y destino.
+                    </p>
+                </div>
+
+                <div class="b2b-grid">
+                    <button type="button" class="b2b-card" data-intent="tostador">
+                        <span class="b2b-card-num">01</span>
+                        <h3 class="b2b-card-title">Conexión con tostadores</h3>
+                        <p class="b2b-card-desc">
+                            Facilitar el acercamiento entre productores de origen y tostadores interesados en conocer nuevas procedencias con identidad clara y trazabilidad auténtica.
+                        </p>
+                        <span class="b2b-action">Explorar servicio <span aria-hidden="true">→</span></span>
+                    </button>
+
+                    <button type="button" class="b2b-card" data-intent="origen">
+                        <span class="b2b-card-num">02</span>
+                        <h3 class="b2b-card-title">Información de origen</h3>
+                        <p class="b2b-card-desc">
+                            Organizar y comunicar información relacionada con procedencia, territorio, productor y proceso, cuando esté disponible y verificada en campo.
+                        </p>
+                        <span class="b2b-action">Explorar servicio <span aria-hidden="true">→</span></span>
+                    </button>
+
+                    <button type="button" class="b2b-card" data-intent="alianza">
+                        <span class="b2b-card-num">03</span>
+                        <h3 class="b2b-card-title">Desarrollo de relaciones comerciales</h3>
+                        <p class="b2b-card-desc">
+                            Apoyar la construcción de relaciones profesionales de largo plazo entre los participantes de la cadena de valor, fundamentadas en la confianza y el respeto mutuo.
+                        </p>
+                        <span class="b2b-action">Explorar servicio <span aria-hidden="true">→</span></span>
+                    </button>
+
+                    <button type="button" class="b2b-card" data-intent="mercado">
+                        <span class="b2b-card-num">04</span>
+                        <h3 class="b2b-card-title">Orientación hacia mercados internacionales</h3>
+                        <p class="b2b-card-desc">
+                            Explorar oportunidades de conexión entre cafés de origen y mercados especializados que aprecian la calidad, la autenticidad y el relato del productor.
+                        </p>
+                        <span class="b2b-action">Explorar servicio <span aria-hidden="true">→</span></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. PARA TOSTADORES & PRODUCTORES -->
+        <section class="section dual-section" id="comunidad">
+            <div class="container">
+                <div class="dual-grid">
+                    <div class="dual-card" id="tostadores">
+                        <div class="dual-card-img-wrap">
+                            <video class="dual-card-img dual-card-video" controls preload="metadata" playsinline poster="images/tostador_catacion.jpg" aria-label="Video de catación y análisis sensorial de café">
+                                <source src="images/comunidad_tostadores.mp4" type="video/mp4">
+                                Tu navegador no puede reproducir este video.
+                            </video>
+                        </div>
+                        <div class="dual-card-body">
+                            <div>
+                                <span class="dual-card-tag">Tostadores Especializados</span>
+                                <h3 class="dual-card-title">Para quienes quieren conocer el origen.</h3>
+                                <p class="dual-card-desc">
+                                    Nos interesa conectar con tostadores que valoren la calidad, la transparencia, la información de origen y las relaciones humanas detrás del café.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="#contacto" class="btn btn-outline-green intent-link" data-intent="tostador">Soy tostador <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dual-card" id="productores">
+                        <div class="dual-card-img-wrap">
+                            <img src="images/cosecha_manos.jpg" alt="Manos de agricultor cuidando la cosecha de café" class="dual-card-img" loading="lazy">
+                        </div>
+                        <div class="dual-card-body">
+                            <div>
+                                <span class="dual-card-tag">Familias Caficultoras</span>
+                                <h3 class="dual-card-title">Para quienes hacen posible cada cosecha.</h3>
+                                <p class="dual-card-desc">
+                                    Queremos construir relaciones que permitan comprender mejor el trabajo, el conocimiento y las particularidades de cada origen, respetando la realidad de los productores y sus territorios.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="#contacto" class="btn btn-primary intent-link" data-intent="productor">Soy productor <span aria-hidden="true">→</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. SOBRE TRAZIA -->
+        <section class="section section-blanco" id="nosotros">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Nuestra Convicción</span>
+                    <h2 class="section-title">Sobre TRAZIA</h2>
+                </div>
+
+                <div class="nosotros-content">
+                    <p class="nosotros-text text-center">
+                        TRAZIA nace de una convicción sencilla: <em>cada origen tiene una historia que merece ser conocida</em>. Nuestro propósito es trabajar en la conexión entre productores de café en Venezuela, tostadores especializados y mercados internacionales, poniendo en el centro la trazabilidad, la calidad, la transparencia y las relaciones humanas.
+                    </p>
+
+                    <div class="nosotros-disclaimer">
+                        <span class="disclaimer-icon">ℹ</span>
+                        <p class="disclaimer-text">
+                            <strong>Nota institucional:</strong> TRAZIA se encuentra actualmente en proceso de desarrollo y conformación empresarial. Nuestro compromiso es avanzar con pasos firmes, claros y respaldados en la realidad de los territorios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. CONTACTO -->
+        <section class="pre-contact-cta" aria-label="Llamado a la acción">
+            <div class="container pre-contact-inner">
+                <div>
+                    <span class="section-badge">Siguiente paso</span>
+                    <h2>¿Formas parte de la cadena del café?</h2>
+                    <p>Cuéntanos quién eres y qué buscas. Podemos empezar la conversación desde el origen.</p>
+                </div>
+                <a href="#contacto" class="btn btn-gold">Iniciar conversación <span aria-hidden="true">→</span></a>
+            </div>
+        </section>
+
+        <section class="section section-crema" id="contacto">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Diálogo Abierto</span>
+                    <h2 class="section-title">Construyamos una conexión desde el origen.</h2>
+                    <p class="section-subtitle">
+                        Si eres productor, tostador o profesional interesado en conocer más sobre el café de origen venezolano, nos gustaría conocer tu perspectiva.
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <!-- Integración activa con Formspree para envío de correos -->
+                    <form action="https://formspree.io/f/mppwzapg" method="POST" class="contact-form" id="contactForm">
+                        <input type="hidden" name="_subject" value="Nuevo contacto desde el sitio web TRAZIA ORIGIN">
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
+
+                        <fieldset class="intent-fieldset">
+                            <legend>¿Qué estás buscando?</legend>
+                            <p class="intent-help">Elige la opción que mejor describe tu interés.</p>
+                            <div class="intent-grid">
+                                <label class="intent-option"><input type="radio" name="interes_principal" value="Comprar café" data-role="importador"><span>Comprar café</span></label>
+                                <label class="intent-option"><input type="radio" name="interes_principal" value="Presentar mi producción" data-role="productor"><span>Presentar mi producción</span></label>
+                                <label class="intent-option"><input type="radio" name="interes_principal" value="Soy tostador" data-role="tostador"><span>Soy tostador</span></label>
+                                <label class="intent-option"><input type="radio" name="interes_principal" value="Explorar una alianza comercial" data-role="profesional"><span>Explorar una alianza</span></label>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nombre y apellido *</label>
+                                <input type="text" id="name" name="nombre_completo" required placeholder="Tu nombre completo">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Empresa u organización</label>
+                                <input type="text" id="company" name="empresa" placeholder="Nombre de tu proyecto o tostaduría">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="country">País *</label>
+                                <input type="text" id="country" name="pais" required placeholder="País de residencia o actividad">
+                            </div>
+                            <div class="form-group">
+                                <label for="role">Tipo de contacto *</label>
+                                <select id="role" name="perfil_contacto" required>
+                                    <option value="" disabled selected>Selecciona tu perfil</option>
+                                    <option value="productor">Productor / Caficultor</option>
+                                    <option value="tostador">Tostador de café</option>
+                                    <option value="importador">Importador</option>
+                                    <option value="profesional">Profesional del café / Catador</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-context" id="formContext" hidden aria-live="polite">
+                            <strong id="formContextTitle">Cuéntanos un poco más.</strong>
+                            <span id="formContextText">Selecciona una opción para adaptar tu mensaje.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" required placeholder="tucorreo@ejemplo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="mensaje" rows="4" required placeholder="Cuéntanos sobre tu interés, tu proyecto o cómo podemos colaborar..."></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn btn-primary btn-submit"><span class="submit-label">Iniciar conversación</span><span class="submit-arrow" aria-hidden="true">→</span></button>
+                            <p class="form-notice">Responderemos personalmente a cada mensaje recibido.</p>
+                        </div>
+                    </form>
+
+                    <div id="formFeedback" class="form-feedback hidden">
+                        <h4 class="feedback-title">Mensaje recibido</h4>
+                        <p class="feedback-desc">
+                            Gracias por ponerte en contacto con TRAZIA. Valoramos tu perspectiva y te responderemos a la brevedad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#contacto" class="floating-cta" aria-label="Ir al formulario de contacto">
+        <span>Conversemos</span><span aria-hidden="true">→</span>
+    </a>
+
+    <!-- 11. FOOTER ESTRUCTURADO Y ALINEADO ORIGINALMENTE -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/Trazia_.svg" alt="TRAZIA Logo" class="footer-logo-img">
+                    <p class="footer-tagline">Every origin has a story.</p>
+                    <p class="footer-desc">
+                        Iniciativa dedicada a conectar el café de especialidad de origen venezolano con tostadores y profesionales de mercados internacionales, basada en la trazabilidad, la calidad y el respeto a los productores.
+                    </p>
+                    
+                    <div style="margin-top: 24px;">
+                        <span style="display: block; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; color: #d4af37; margin-bottom: 12px; text-transform: uppercase;">CONTACTO</span>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <a href="mailto:trazia.origin@outlook.com" style="display: inline-flex; align-items: center; gap: 8px; color: #ffffff; text-decoration: none; font-size: 13px;">
+                                <span style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 3px;">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </span>
+                                trazia.origin@outlook.com
+                            </a>
+                            <a href="https://www.linkedin.com/company/trazia-origin/" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 8px; color: #ffffff; text-decoration: none; font-size: 13px;">
+                                <span style="display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 3px;">
+                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                </span>
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">NAVEGACIÓN</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#origen-rostro">El origen tiene rostro</a></li>
+                        <li><a href="#enfoque">Nuestro enfoque</a></li>
+                        <li><a href="#recorrido">Del origen al mercado</a></li>
+                        <li><a href="#venezuela">Café de Venezuela</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-heading">PARTICIPACIÓN</h4>
+                    <ul class="footer-links">
+                        <li><a href="#servicios">Servicios B2B</a></li>
+                        <li><a href="#tostadores">Para tostadores</a></li>
+                        <li><a href="#productores">Para productores</a></li>
+                        <li><a href="#nosotros">Sobre nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 TRAZIA. Todos los derechos reservados.</p>
+                <p class="footer-tagline-sm">Construyendo relaciones desde el origen.</p>
+            </div>
+        </div>
+        </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
